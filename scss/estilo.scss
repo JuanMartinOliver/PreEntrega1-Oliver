@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Body */
+
+@import "fuente";
+@import "body";
+@import "header";
+@import "mixin";
+@import "h1-al-h5";
+@import "carrousel-marcas";
+@import "rinonera-owen";
+@import "bolsos";
+@import "carrito";
+@import "contacto";
+@import "botones";
+@import "footer";
+
+.whats {
+    width: 80px;
+    position: fixed;
+    bottom: 100px;
+    right: 20px;
+    transition: width 0.4s;
+
+    &:hover {
+        width: 90px;
+    }
+}
+

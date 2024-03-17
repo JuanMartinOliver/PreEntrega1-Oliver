@@ -1,0 +1,307 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100&family=Young+Serif&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* Body */
+body {
+  font-family: "Young Serif", serif;
+  background-image: linear-gradient(to right, #D1913C, #FFD194);
+}
+
+.textoQuienesSomos {
+  margin: 50px;
+}
+
+/* header */
+header {
+  /* border-top: 10px solid black; */
+  border-bottom: 2px solid black;
+  /* border-left: 10px solid black;
+  border-right: 10px solid black; */
+}
+
+.logo {
+  width: 300px;
+  margin: 10px;
+  margin-bottom: 0px;
+  margin-top: 0px;
+}
+
+.colornavbar {
+  background-color: #272727;
+}
+
+.banner {
+  width: 90%;
+  border-radius: 5px;
+  border: 2px solid black;
+}
+
+nav ul li {
+  list-style: none;
+  display: inline-block;
+}
+
+.colorBurger {
+  background-color: white;
+}
+
+.colorFondoBolsos {
+  background-color: #272727;
+}
+
+.colorFuentesBolsos:hover {
+  background-color: rgba(232, 116, 14, 0.898);
+  color: #272727 !important;
+  font-weight: bold;
+}
+
+.botonNavbar {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: white !important;
+  transition: all 1s !important;
+}
+.botonNavbar:hover {
+  background-color: rgb(24, 22, 22);
+  color: azure !important;
+  font-weight: bold;
+  border-radius: 5px;
+  font-size: 20px;
+}
+
+.logo:hover {
+  background-color: #272727 !important;
+}
+
+.colorBotonBuscar {
+  color: white;
+  border-color: white;
+  margin-right: 20px;
+  transition: all 0.4s !important;
+}
+.colorBotonBuscar:hover {
+  background-color: rgb(24, 22, 22);
+  color: azure !important;
+  font-weight: bold;
+  border-color: white;
+  font-size: 20px;
+}
+
+h1, h2 {
+  text-align: center;
+  margin-top: 100px !important;
+  margin-bottom: 40px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+h3 {
+  text-align: center;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+p {
+  margin: 20px;
+}
+
+h4 {
+  text-align: center;
+  margin: 90px;
+}
+
+/* carousel */
+.tamLogo {
+  width: 50%;
+  border: black solid 2px;
+  border-radius: 4px;
+}
+
+.carouselRiñonera {
+  border: black solid 2px;
+  border-radius: 2px;
+}
+
+.colorLineasCarousel {
+  color: red;
+}
+
+.textoDescripcion {
+  text-align: center;
+}
+
+.colorFlecha {
+  background-color: #272727;
+}
+
+/* Bolsos */
+.margenBolsos {
+  margin: 20px;
+}
+
+.margenCupon {
+  text-align: center;
+}
+
+.margenTotal {
+  display: inline-block;
+  margin: auto;
+  align-items: center;
+  justify-content: center;
+}
+
+.card-title {
+  font-size: 15px;
+  margin: 0;
+}
+
+/* contacto */
+.bordeContacto {
+  text-align: center;
+  border: solid 1px black;
+  background-color: white;
+  border-radius: 3px;
+  font-size: 20px;
+}
+
+.h2Contacto {
+  margin: 50px;
+  border: solid 1px black;
+  border-radius: 3px;
+  background-color: white;
+  width: 500px;
+}
+
+.formContacto {
+  margin: 200px !important;
+}
+
+.mapa {
+  display: block;
+  margin: auto;
+  margin-top: 100px;
+}
+
+.botonComprar {
+  background-color: black;
+  color: azure;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  font-size: 12px;
+  cursor: pointer;
+  margin-top: 10px;
+  display: inline;
+}
+.botonComprar:hover {
+  background-color: rgb(24, 22, 22);
+  color: azure !important;
+}
+
+.botonAgregarAlCarrito {
+  background-color: black;
+  color: azure;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  font-size: 12px;
+  cursor: pointer;
+  margin-top: 10px;
+  display: inline;
+}
+.botonAgregarAlCarrito:hover {
+  background-color: rgb(24, 22, 22);
+  color: azure !important;
+}
+
+.botonContacto {
+  background-color: black;
+  color: azure;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  font-size: 12px;
+  cursor: pointer;
+  margin-top: 10px;
+  display: inline;
+  display: inline-block;
+  margin: auto;
+  align-items: center;
+  justify-content: center;
+  width: 100px;
+  font-size: 20px;
+}
+.botonContacto:hover {
+  background-color: rgb(24, 22, 22);
+  color: azure !important;
+}
+
+.botonComprarGrande {
+  background-color: black;
+  color: azure;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  font-size: 12px;
+  cursor: pointer;
+  margin-top: 10px;
+  display: inline;
+  display: inline-block;
+  margin: auto;
+  align-items: center;
+  justify-content: center;
+  width: 25px 20px;
+  font-size: large;
+}
+.botonComprarGrande:hover {
+  background-color: rgb(24, 22, 22);
+  color: azure !important;
+}
+
+.centrarComprarGrande {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* footer */
+footer {
+  border-top: 2px solid black;
+  background-color: #272727;
+  margin-top: 100px;
+}
+
+.colorParrafoFooter {
+  color: white !important;
+  margin-bottom: 0px;
+}
+
+.logoFooter {
+  width: 180px;
+  float: left;
+  margin-left: 30px;
+}
+
+.logoFooterderecha {
+  width: 180px;
+  float: right;
+  margin-right: 30px;
+}
+
+.whats {
+  width: 80px;
+  position: fixed;
+  bottom: 100px;
+  right: 20px;
+  transition: width 0.4s;
+}
+.whats:hover {
+  width: 90px;
+}
+
+/*# sourceMappingURL=estilo.css.map */

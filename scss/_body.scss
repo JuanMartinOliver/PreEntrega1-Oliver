@@ -1,0 +1,15 @@
+$fondo: habitual;
+
+@if ($fondo == habitual) {
+    body {
+        font-family: 'Young Serif', serif;
+        background-image: linear-gradient(to right, #D1913C, #FFD194)
+        
+    }
+    
+}
+
+.textoQuienesSomos {
+        margin: 50px;
+}
+

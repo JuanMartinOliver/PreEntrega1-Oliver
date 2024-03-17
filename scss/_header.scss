@@ -1,0 +1,82 @@
+/* header */
+header {
+    /* border-top: 10px solid black; */
+    border-bottom: 2px solid black;
+  
+    /* border-left: 10px solid black;
+    border-right: 10px solid black; */
+    // text-align: center;
+  }
+  
+  .logo {
+    width: 300px;
+    margin: 10px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+  }
+  
+  .colornavbar {
+    background-color: #272727;
+  }
+  
+  .banner {
+    width: 90%;
+    border-radius: 5px;
+    border: 2px solid black;
+  }
+  
+  nav ul li {
+    list-style: none;
+    display: inline-block;
+  }
+  
+  .colorBurger {
+    background-color: white;
+  }
+  
+  .colorFondoBolsos {
+    background-color: #272727;
+  }
+  
+  .colorFuentesBolsos:hover {
+    background-color: rgba(232, 116, 14, 0.898);
+    color: #272727 !important;
+    font-weight: bold;
+  }
+  
+  .botonNavbar {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: white !important;
+    // margin: -8px;
+    transition: all 1s !important;
+  
+    &:hover {
+      background-color: rgb(24, 22, 22);
+      color: azure !important;
+      font-weight: bold;
+      border-radius: 5px;
+      font-size: 20px;
+    }
+  }
+  
+  .logo:hover {
+    background-color: #272727 !important;
+  }
+  
+  .colorBotonBuscar {
+    color: white;
+    border-color: white;
+    margin-right: 20px;
+    transition: all 0.4s !important;
+  
+    &:hover {
+      background-color: rgb(24, 22, 22);
+      color: azure !important;
+      font-weight: bold;
+      border-color: white;
+      font-size: 20px;
+    }
+  }
+  

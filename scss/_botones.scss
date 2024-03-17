@@ -1,0 +1,29 @@
+.botonComprar {
+    @include botones;
+  }
+
+  .botonAgregarAlCarrito {
+    @include botones;
+  }
+
+.botonContacto {
+  @include botones;
+  @include centrar;
+  
+  width: 100px;
+  font-size: 20px;
+}
+
+.botonComprarGrande {
+  @include botones;
+  @include centrar;
+  width: 25px 20px;
+  font-size: large;
+  
+}
+
+.centrarComprarGrande {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
