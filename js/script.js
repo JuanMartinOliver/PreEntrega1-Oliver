@@ -57,13 +57,18 @@ while (opcion != "5") {
                     case "4":
                         carrito.push({ producto: "Riñonera", precio: 10000 });
                         break;
-                        case "5":
+                    case "5":
                         carrito.push({ producto: "Envio a Domicilio", precio: 5000 });
                         break;
                     default:
                         alert("Opción no válida.");
                         break;
                 }
+                let contenidoCarrito = "Contenido del carrito:\n";
+                for (let item of carrito) {
+                    contenidoCarrito += `${item.producto} - $${item.precio}\n`;
+                }
+                alert(contenidoCarrito);
                 seguirAgregando = confirm("¿Desea agregar otro producto?");
             }
 
